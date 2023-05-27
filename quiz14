@@ -1,0 +1,16 @@
+while True:
+    try:
+
+        value1 = float(input("Enter the first value: "))
+        
+        value2 = float(input("Enter the second value: "))
+    
+        result = value1 + value2
+        
+        print("Result: ", result)
+        
+        break  
+    
+    except ValueError:
+        print("Invalid character entered. Please enter numbers or floats only.")
+
